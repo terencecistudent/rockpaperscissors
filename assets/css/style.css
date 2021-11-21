@@ -62,5 +62,5 @@ body {
 
 /* Play Again button displays none during game */
 .play-btn {
-    display: none;
+  display: none;
 }
