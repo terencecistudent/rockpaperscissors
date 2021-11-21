@@ -60,11 +60,11 @@ You can download it from here: https://code.visualstudio.com/
 
 ### Manual Testing
 
-Manual tests can be found [here](https://github.com/)
+Manual tests can be found on the attached PDF file [here](https://github.com/terencecistudent/rock_paper_scissors/blob/main/testing/user_stories.pdf).
 
 ### Responsiveness on different devices
 
-Responsiveness tests can be found [here]()
+Responsiveness tests can be found on the attached PDF file [here](https://github.com/terencecistudent/rock_paper_scissors/blob/main/testing/responsiveness_tests.pdf).
 
 ### Running Responsive Designs on Google Chrome:
 
