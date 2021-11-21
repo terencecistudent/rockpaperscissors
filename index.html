@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+    <div class="game text-center container">
+        <h1 class="my-3 text-white">Rock, Paper and Scissors</h1>
+        <div class="scoreboard">
+            <div class="row justify-content-center">
+                <div class="col-6 mx-1 scoreboard-header">
+                    <h3>User:</h3>
+                    <p class="score-number" id="user-score">0</p>
+                </div>
+                <div class="col-6 mx-1 scoreboard-header">
+                    <h3>Comp:</h3>
+                    <p class="score-number" id="comp-score">0</p>
+                </div>
+            </div>
+        </div>
+        <div class="winner my-3">
+            <h5 class="winner-content text-white">Good luck!</h5>
+        </div>
+        <div class="choices justify-content-center my-3">
+            <div class="row">
+                <div class="col-sm-12 col-md-4">
+                    <div id="rock"><i class="choice choice-rock shadow far fa-hand-rock"></i></div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div id="paper"><i class="choice choice-paper shadow far fa-hand-paper"></i></div>
+                </div>
+                <div class="col-sm-12 col-md-4">
+                    <div id="scissors"><i class="choice choice-scissors shadow far fa-hand-scissors"></i></div>
+                </div>
+            </div>
+        </div>
+        <button type="button" class="btn btn-outline-light my-4 play-btn">Play Again</button>
+    </div>
+
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+    <!-- Normal JS -->
+    <script src="assets/js/script.js"></script>
+
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/39aab9b60c.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

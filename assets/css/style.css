@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #6f8e90;
+  color: #242424;
+}
+
+/* Scoreboard */
+.scoreboard-header {
+  text-align: -webkit-center;
+  background-color: #fff;
+  padding: 5px;
+  width: 35%;
+  border-radius: 5px;
+}
+
+.score-number {
+  font-size: 30px;
+}
+
+/* Choices - Icons */
+.choices {
+  display: flex;
+}
+
+.choice {
+  font-size: 90px;
+  margin: 10px;
+  padding: 20px;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 50%;
+  outline: none;
+  transition: 0.2s ease-in;
+}
+
+.choice:hover {
+  background-color: #e3e3e3;
+  transform: translateY(-3px);
+}
+
+/* Winner/Loser/Draw Icon colours */
+.user-winner-glow {
+  color: rgb(49, 209, 49);
+}
+
+.user-loser-glow {
+  color: rgb(199, 7, 7);
+}
+
+.draw-glow {
+  color: rgba(255, 255, 255, 0.815);
+}
+
+/* Icons display none when game is over */
+.choices-display-none {
+  display: none;
+}
+
+/* Play Again button displays none during game */
+.play-btn {
+    display: none;
+}
