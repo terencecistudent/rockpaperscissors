@@ -123,7 +123,7 @@ const gameOver = () => {
   computerScore = 0;
   userScore_p.innerHTML = userScore;
   compScore_p.innerHTML = computerScore;
-  winnerContent.innerHTML = "Good luck!";
+  winnerContent.innerHTML = "First to 5 wins!";
   choices.classList.remove("choices-display-none");
   playAgainBtn.classList.add("play-btn");
 };
